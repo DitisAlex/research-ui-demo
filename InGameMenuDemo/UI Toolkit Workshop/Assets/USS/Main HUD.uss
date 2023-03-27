@@ -1,0 +1,45 @@
+.statBar {
+    border-left-color: rgba(255, 255, 255, 0.47);
+    border-right-color: rgba(255, 255, 255, 0.47);
+    border-top-color: rgba(255, 255, 255, 0.47);
+    border-bottom-color: rgba(255, 255, 255, 0.47);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    height: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100%;
+}
+
+.toolbarCell {
+    border-left-color: rgba(161, 145, 145, 0.74);
+    border-right-color: rgba(161, 145, 145, 0.74);
+    border-top-color: rgba(161, 145, 145, 0.74);
+    border-bottom-color: rgba(161, 145, 145, 0.74);
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    background-color: rgb(219, 40, 40);
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    -unity-background-scale-mode: stretch-to-fill;
+    -unity-background-image-tint-color: rgb(58, 11, 11);
+    flex-grow: 1;
+}
+
+.quest {
+    border-left-color: rgb(94, 195, 74);
+    border-right-color: rgb(94, 195, 74);
+    border-top-color: rgb(94, 195, 74);
+    border-bottom-color: rgb(94, 195, 74);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    background-color: rgb(0, 0, 0);
+}
