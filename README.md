@@ -1,6 +1,6 @@
 # Game Dev Minor (GDES) - Research UI Demo
 
-#https://github.com/DitisAlex/research-ui-demo
+# https://github.com/DitisAlex/research-ui-demo
 
 ## Demo - Main Menu [Difficulty: Basic]:
 ![Screenshot](images/MainMenu.png)
