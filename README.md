@@ -18,6 +18,7 @@
         ├── UI                          # Our UI related stuff will go in here  
         │   └── SettingsTemplate.uxml   # Don't worry about it yet
         └── Template                    # Template Unity stuff
+    1C) Open MainUnity scene.
 
 ### 2) Creating our .uxml file
     2A) Right click -> Create -> UI Toolkit -> UI Document
@@ -44,6 +45,7 @@
 
 ### 6) Build the rest of the Visual Elements (make sure these are inside #Container)
     6A) Add Label field named "Title" with the following selectors:
+        - Text (color): White
         - Attributes (text): Placeholder
         - Align (align items): Center
         - Margin & Padding (margin top): 40px
@@ -85,6 +87,8 @@ If you have followed all the steps to this point correctly, your UI Builder shou
         - Fill in ".menu-button" in the selector field (the . is important).
         - Click "Create New USS Selector"
     7D) Any selector changes we make inside this .uss file will now be automatically applied to any elements with the ".menu-button" selector. We are going to apply some selectors to all of these buttons:
+        - Text (color): White
+        - Background (opacity): 0%
         - Size (height): 25px
         - Margin & Padding (margin): 10px
         - Text (size): 20px
