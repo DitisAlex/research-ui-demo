@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="inventory" src="project://database/Assets/UI%20Toolkit/PlayerExample/Inventory/inventory.uxml?fileID=9197481963319205126&amp;guid=4bee8947ec733ce439102ffb16321666&amp;type=3#inventory" />
+    <ui:Template name="page2" src="project://database/Assets/UI%20Toolkit/PlayerExample/Inventory/upgrades.uxml?fileID=9197481963319205126&amp;guid=74141042033f5b8418f33aa8447bed21&amp;type=3#upgrades" />
+    <ui:Template name="levels" src="project://database/Assets/UI%20Toolkit/PlayerExample/Inventory/levels.uxml?fileID=9197481963319205126&amp;guid=f0c57c668debb684db7dab041b76a741&amp;type=3#levels" />
+    <Style src="project://database/Assets/UI%20Toolkit/PlayerExample/sidemenustylesheet.uss?fileID=7433441132597879392&amp;guid=9855193ae9355de49bba7d475584df2f&amp;type=3#sidemenustylesheet" />
+    <ui:VisualElement name="side-menu-container" style="flex-grow: 1; background-color: rgba(120, 108, 98, 0); width: 256px; align-items: stretch; align-self: flex-start; height: 256px; justify-content: flex-end; flex-shrink: 1; flex-direction: column; flex-wrap: nowrap; flex-basis: auto;">
+        <ui:Instance template="inventory" name="inventory-content" style="flex-grow: 1; visibility: visible; display: none; overflow: visible; opacity: 1; flex-shrink: 0; width: 100%; height: 100%;" />
+        <ui:Instance template="page2" name="upgrades-content" style="flex-grow: 1; display: none; flex-shrink: 1;" />
+        <ui:Instance template="levels" name="stats-content" style="display: none;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="side-menu-elements" style="flex-grow: 1; background-color: rgba(94, 0, 0, 0.27); height: 60px; flex-shrink: 0; flex-direction: row; justify-content: space-around; align-self: stretch; align-items: auto; width: 100%;">
+        <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; align-self: center;">
+            <ui:Button display-tooltip-when-elided="true" focusable="false" name="inventory-button" class="element-button" style="width: 50px; height: 50px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; background-image: url(&apos;project://database/Assets/Resources/Cainos/Pixel%20Art%20Icon%20Pack%20-%20RPG/Texture/Equipment/Bag.png?fileID=2800000&amp;guid=93dbc8f96dc6c00418ba8f1a8e8992e4&amp;type=3#Bag&apos;); -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; -unity-background-scale-mode: scale-to-fit; align-items: center; background-color: rgba(120, 108, 98, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; height: auto; justify-content: flex-start; align-self: center; align-items: center; width: auto;">
+            <ui:Button display-tooltip-when-elided="true" focusable="false" name="upgrade-button" class="element-button" style="width: 50px; height: 50px; background-image: resource(&apos;Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Golden Coin&apos;); background-color: rgba(120, 108, 98, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; align-self: center;">
+            <ui:Button display-tooltip-when-elided="true" focusable="false" name="stats-button" class="element-button" style="width: 50px; height: 50px; background-image: url(&apos;project://database/Assets/Resources/Cainos/Pixel%20Art%20Icon%20Pack%20-%20RPG/Texture/Misc/Heart.png?fileID=2800000&amp;guid=87a7c4321fd50514c8e41d6779a071da&amp;type=3#Heart&apos;); background-color: rgba(120, 108, 98, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; align-self: center;">
+            <ui:Button display-tooltip-when-elided="true" focusable="false" name="settings-button" class="element-button" style="width: 50px; height: 50px; align-self: center; align-items: stretch; background-image: resource(&apos;Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Gear&apos;); background-color: rgba(120, 108, 98, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/menu-stylesheet.uss?fileID=7433441132597879392&amp;guid=a5739525477ec164781a7708d7ba8cb6&amp;type=3#menu-stylesheet" />
+    <ui:VisualElement name="pause-menu" style="flex-grow: 1; background-color: rgba(55, 55, 55, 0.62); justify-content: flex-start; align-items: center; -unity-font-definition: url(&apos;project://database/Assets/Font/Din%20SDF.asset?fileID=11400000&amp;guid=01b28adecaf52e64283b2a04c9934c12&amp;type=2#Din SDF&apos;); flex-direction: column;">
+        <ui:Label tabindex="-1" text="Pause menu" display-tooltip-when-elided="true" name="pause-text" class="title-text" style="margin-top: 4%; margin-left: 0; margin-right: 0; margin-bottom: 2px;" />
+        <ui:Button text="Resume" display-tooltip-when-elided="true" enable-rich-text="true" name="resume-button" focusable="false" class="button" style="margin-top: 2%; margin-bottom: 2%; background-color: rgb(148, 255, 160); color: rgb(0, 0, 0);" />
+        <ui:Button text="Settings" display-tooltip-when-elided="true" name="settings-button" focusable="false" class="button" style="color: rgb(0, 0, 0);" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; flex-direction: column-reverse; align-items: center; justify-content: space-between; width: 100%;">
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="exit-button" focusable="false" class="button" style="align-self: center; justify-content: flex-start; align-items: auto; flex-direction: column; margin-top: 0; margin-bottom: 2%; background-color: rgb(137, 2, 2);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

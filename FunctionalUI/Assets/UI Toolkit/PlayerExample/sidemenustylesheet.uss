@@ -1,0 +1,67 @@
+.element-button {
+    flex-shrink: 0;
+    background-color: rgb(120, 108, 98);
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: flex-start;
+    align-self: center;
+    align-items: stretch;
+    -unity-background-image-tint-color: rgb(120, 120, 120);
+}
+
+.slotContainer {
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    border-left-color: rgb(48, 48, 48);
+    border-right-color: rgb(48, 48, 48);
+    border-top-color: rgb(48, 48, 48);
+    border-bottom-color: rgb(48, 48, 48);
+    background-color: rgba(9, 19, 21, 0.41);
+    background-image: url('project://database/Assets/Materials/itembackground.bmp?fileID=2800000&guid=0bd404bbc1ca4a647b56abaff2529138&type=3#itembackground');
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    justify-content: center;
+    align-self: center;
+    max-height: 25%;
+    max-width: 25%;
+    flex-shrink: 0;
+}
+
+.slotIcon {
+    margin: 2px;
+    -unity-background-image-tint-color: rgba(0, 0, 0, 0.2);
+}
+
+.slotContainer Image {
+    padding: 2px;
+    width: 80%;
+    height: 80%;
+    color: blue;
+}
+
+.slotContainer:hover Image {
+    width: 100%;
+    height: 100%;
+}
+
+.element-button:hover {
+    -unity-background-image-tint-color: rgb(219, 219, 219);
+}
+
+.item-cell #Label {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 100%;
+    white-space: normal;
+    text-overflow: clip;
+    -unity-text-align: upper-center;
+}

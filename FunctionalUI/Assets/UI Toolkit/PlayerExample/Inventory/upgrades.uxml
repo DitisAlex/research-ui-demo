@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/menu-stylesheet.uss?fileID=7433441132597879392&amp;guid=a5739525477ec164781a7708d7ba8cb6&amp;type=3#menu-stylesheet" />
+    <ui:VisualElement name="side-menu-content" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); visibility: visible; display: flex; flex-shrink: 1; flex-direction: column; align-items: stretch; justify-content: flex-start; align-self: stretch; height: auto;">
+        <ui:VisualElement style="flex-grow: 0; background-color: rgb(133, 116, 109); flex-direction: column; align-items: auto; height: auto; align-self: stretch;">
+            <ui:Label tabindex="-1" text="Upgrades" display-tooltip-when-elided="true" name="Label" class="title-text" style="-unity-text-align: upper-center; align-items: center; flex-shrink: 1; flex-grow: 1; justify-content: flex-start; align-self: center; height: 20%; font-size: 15px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="row-odd" style="flex-grow: 1; background-image: none; height: auto; flex-direction: row; align-items: flex-start; background-color: rgba(127, 95, 82, 0.54);">
+            <ui:Label tabindex="-1" text="Walk Speed" display-tooltip-when-elided="true" name="Label" style="flex-shrink: 1; width: 75%; align-items: auto; justify-content: flex-start; align-self: center; margin-right: 4%; margin-left: 4%;" />
+            <ui:Button text="+1" display-tooltip-when-elided="true" name="Button" focusable="false" class="button" style="width: 25px; height: 25px; justify-content: flex-start; align-items: auto; align-self: center; background-color: rgb(0, 125, 13); -unity-font-style: bold; max-width: 20%; padding-left: 16px; padding-right: 16px; padding-top: 13px; padding-bottom: 13px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="row-even" style="flex-grow: 1; background-image: none; height: auto; flex-direction: row; align-items: flex-start;">
+            <ui:Label tabindex="-1" text="Sprint speed" display-tooltip-when-elided="true" name="Label" style="flex-shrink: 1; width: 75%; align-items: auto; justify-content: flex-start; align-self: center; margin-right: 4%; margin-left: 4%; font-size: 13px;" />
+            <ui:Button text="+1" display-tooltip-when-elided="true" enable-rich-text="true" focusable="false" class="button" style="width: 25px; height: 25px; justify-content: flex-start; align-items: auto; align-self: center; background-color: rgb(0, 125, 13); -unity-font-style: bold; max-width: 20%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="row-odd" style="flex-grow: 1; background-image: none; height: auto; flex-direction: row; align-items: flex-start;">
+            <ui:Label tabindex="-1" text="Stamina regeneration" display-tooltip-when-elided="true" name="Label" style="flex-shrink: 1; width: 75%; align-items: auto; justify-content: flex-start; align-self: center; margin-right: 4%; margin-left: 4%; font-size: 13px;" />
+            <ui:Button text="+1" display-tooltip-when-elided="true" focusable="false" class="button" style="width: 25px; height: 25px; justify-content: flex-start; align-items: auto; align-self: center; background-color: rgb(0, 125, 13); -unity-font-style: bold; max-width: 20%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="row-even" style="flex-grow: 1; background-image: none; height: auto; flex-direction: row; align-items: flex-start;">
+            <ui:Label tabindex="-1" text="Heal power" display-tooltip-when-elided="true" name="Label" style="flex-shrink: 1; width: 75%; align-items: auto; justify-content: flex-start; align-self: center; margin-right: 4%; margin-left: 4%; font-size: 13px;" />
+            <ui:Button text="+1" display-tooltip-when-elided="true" focusable="false" class="button" style="width: 25px; height: 25px; justify-content: flex-start; align-items: auto; align-self: center; background-color: rgb(0, 125, 13); -unity-font-style: bold; max-width: 20%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

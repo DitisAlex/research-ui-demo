@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/menu-stylesheet.uss?fileID=7433441132597879392&amp;guid=a5739525477ec164781a7708d7ba8cb6&amp;type=3#menu-stylesheet" />
+    <ui:VisualElement name="side-menu-content" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); visibility: visible; display: flex; flex-shrink: 1; flex-direction: column; align-items: stretch; justify-content: flex-start; align-self: stretch; height: auto; width: auto;">
+        <ui:VisualElement style="flex-grow: 1; background-color: rgb(133, 116, 109); flex-direction: column; align-items: auto; height: auto; align-self: stretch;">
+            <ui:Label tabindex="-1" text="Levels" display-tooltip-when-elided="true" name="Label" class="title-text" style="-unity-text-align: upper-center; align-items: center; flex-shrink: 1; flex-grow: 1; justify-content: flex-start; align-self: center; height: 20%; font-size: 15px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; justify-content: space-around;">
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.3); min-height: auto; min-width: auto; width: 50%; justify-content: center;">
+                <ui:Label tabindex="-1" text="Walking" display-tooltip-when-elided="true" style="height: 20%; font-size: 20px; -unity-text-align: upper-center;" />
+                <ui:Label tabindex="-1" text="1/3" display-tooltip-when-elided="true" style="height: 80%; font-size: 40%; -unity-text-align: upper-center; white-space: nowrap; text-overflow: clip; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 5%; padding-right: 5%; padding-top: 5%; padding-bottom: 5%; align-self: center;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.3); min-width: auto; min-height: auto; width: 50%; justify-content: center;">
+                <ui:Label tabindex="-1" text="Sprinting" display-tooltip-when-elided="true" style="height: 20%; font-size: 20px; -unity-text-align: upper-center;" />
+                <ui:Label tabindex="-1" text="1/3" display-tooltip-when-elided="true" style="height: 80%; font-size: 40px; -unity-text-align: upper-center; padding-left: 5%; padding-right: 5%; padding-top: 5%; padding-bottom: 5%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; align-self: center;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; min-width: auto; min-height: auto;">
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.3); min-height: auto; min-width: auto; width: 50%; justify-content: center;">
+                <ui:Label tabindex="-1" text="Stamina" display-tooltip-when-elided="true" style="min-width: auto; min-height: auto; font-size: 20px; -unity-text-align: upper-center;" />
+                <ui:Label tabindex="-1" text="1/3" display-tooltip-when-elided="true" style="height: 80%; font-size: 40px; -unity-text-align: upper-center; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 5%; padding-right: 5%; padding-top: -4%; padding-bottom: 5%; justify-content: flex-start; align-self: center;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.3); min-width: auto; min-height: auto; width: 50%; justify-content: center;">
+                <ui:Label tabindex="-1" text="Healing" display-tooltip-when-elided="true" style="font-size: 20px; -unity-text-align: upper-center;" />
+                <ui:Label tabindex="-1" text="1/3" display-tooltip-when-elided="true" style="height: 80%; font-size: 40px; -unity-text-align: upper-center; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 5%; padding-right: 5%; padding-top: 0; padding-bottom: 5%; align-self: center;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
